@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: sqs-consumer-demo
+cloud:
+  aws:
+    credentials:
+      access-key: MYACCESSKEYXXXXXXXXX
+      secret-key: My+SeCret+KeY+xxxxxxxxxxxxxxxxxxxxxxxxxx
+    region:
+      static: eu-south-2
+logging:
+  level:
+    root: info
